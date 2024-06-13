@@ -1,0 +1,618 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  
+  header{
+    background-color: rgb(3, 107, 116);
+    
+  }
+  
+  #navbar{
+  display: flex;
+  
+  }
+  
+  #navbar ul{
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  #navbar ul li{
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  #navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  #navbar a:hover {
+    background: rgb(4, 4, 51);
+    font-size:1.04em;
+  
+  }
+  #welcome-section{
+    display: flex;
+    justify-content: space-around;
+    background: hsl(243, 70%, 6%);
+    background-image: linear-gradient(to top right ,hsl(191, 28%, 23%),rgb(1, 16, 16)) ;
+    background-color: rgb(4, 174, 253);
+  height: 350px;
+    padding: 10px ;
+    height: 100%;
+  }
+
+  #welcome-section > div{
+    width: 30%;
+  }
+
+  .myinfo{
+  
+   margin-top: 30px;
+   width: 1000px;
+   
+  }
+
+  #download-resume{
+text-align: center;
+font-size: 0.4em;
+padding-top: 10px;
+padding: 10px;
+border:2px rgb(5, 174, 212) solid;
+border-radius: 10px;
+background-color: rgb(2, 31, 35);
+color:white;
+box-shadow: 0  0 35px rgb(1, 24, 31);
+  } 
+
+
+
+  #download-resume:hover{
+    background-color: rgb(4, 128, 139);
+    box-shadow: 0  0 35px rgb(10, 168, 216);
+  
+  }
+
+  #github{
+    text-align: center;
+    font-size: 0.4em;
+    padding: 10px;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(5, 184, 212);
+    box-shadow: 0  0 10px rgb(5, 88, 212);
+  }
+
+  #github:hover{
+    background-color: rgb(5, 64, 82);
+    box-shadow: 0  0 45px rgb(2, 47, 61);
+  }
+
+  .purple{
+    color: rgb(183, 19, 183);
+    font-size: 1.3em;
+    font-weight: bold;
+    
+  }
+
+  #element{
+    color:rgb(183, 19, 183);
+  }
+
+  
+.left-section{
+  width: 600px;
+}
+
+  .left-section img{
+   width:550px;
+   margin-top: 0px;
+   margin-right: 100px;
+   margin: 145px 0;
+   margin-right: 100px;
+   border-radius: 50%;
+   /* background-color: rgb(3, 81, 105); */
+   /* border: 3px solid rgb(10, 168, 216);
+   box-shadow: 0  0 25px rgb(10, 168, 216); */
+   /* background-color: red; */
+  }
+
+  .left-section img:hover{
+    box-shadow: 0  0 65px rgb(10, 168, 216);
+  }
+
+  .right-section{
+    width: 60%;
+    height:100%;
+    font-size: 3em;
+    margin: 200px;
+    /* background-color: red; */
+  }
+
+  
+
+  #welcome-section h1{
+    font-size: 4em;
+    margin-top: 200px
+  }
+  #welcome-section cite{
+   
+    font-size: 2em;
+  }
+
+
+
+  .education{
+    padding: 10px;
+    background-image: linear-gradient(to top right ,hsl(191, 82%, 13%),rgb(6, 121, 110)) ;
+    /* background-color: rgba(2, 33, 33, 0.4); */
+    width:100%;
+    height: 100%;
+    
+  }
+
+  
+
+  .education h2{
+    text-align: center;
+    color:white;
+    font-size: 4rem;
+  }
+
+  
+.timeline-item{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  
+.left{
+  height: 1800px;
+  width: 40%;
+  
+}
+
+.anushka{
+  border: 2px solid blue;
+  margin-left: 90px;
+  border-radius: 20px;
+  border: 2px solid rgb(1, 40, 60);
+  background-color: rgb(3, 52, 74);
+  height: 350px;
+  width: 420px;
+  padding:25px;
+  box-shadow: 0 0 25px black;
+  margin-top: 30px;
+  
+}
+
+.anushka h3{
+  margin-top: 0px;
+  font-size: 25px;
+}
+
+.fcc{
+  display: flex;
+  width: 400px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(2, 205, 246);
+}
+
+.fcc > .cont p{
+  font-size: 15px;
+}
+
+.fcc-image img{
+  height: 100px;
+  width: 100px;
+}
+
+
+.udemy{
+  
+  margin-top: 15px;
+  display: flex;
+  width: 400px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(2, 205, 246);
+}
+
+.udemy-image img{
+  height: 80px;
+  width: 110px;
+}
+
+
+
+.udemy-cont p{
+font-size: 15px;
+  
+}
+
+
+
+
+.school{
+  margin-top: 15px;
+  /* background-color: red; */
+  display: flex;
+  width: 500px;
+  height:80px;
+
+}
+
+
+.im img{
+ border: 2px solid rgb(12, 12, 228);
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 50%;
+  height:70px;
+  width: 70px;
+  box-shadow: 0 0 25px blue;
+}
+
+.cont{
+  
+  /* background-color: white; */
+  margin-left:20px;
+  width: 450px;
+  height: 100px;
+  font-size: 15px;
+}
+.cont  p{
+  margin-top: 0;
+
+}
+
+.college{
+  margin-top: 20px;
+  display: flex;
+  width: 500px;
+  height:80px;
+}
+
+.college img{
+  border: 2px solid rgb(12, 12, 228);
+  margin-left: 5px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 25px blue;
+}
+
+.coll-cont{
+
+  height: 100px;
+  margin-left:20px ;
+}
+
+
+
+.course, .sign{
+  border: 2px solid blue;
+  margin-left: 90px;
+  border-radius: 20px;
+  border: 2px solid rgb(1, 40, 60);
+  background-color: rgb(3, 52, 74);
+  height: 280px;
+  width: 420px;
+  padding:25px;
+  box-shadow: 0 0 25px black;
+}
+
+.course:hover, .sign:hover, .anushka:hover{
+  box-shadow: 0 0 25px rgb(3, 136, 173);
+}
+
+
+.course{
+  margin-top: 280px;
+}
+
+.course h3{
+  margin-top: 1px;
+}
+
+.sign{
+  margin-top: 300px;
+}
+
+
+ 
+.middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 1800px;
+  width: 14px;
+  
+}
+
+.timeline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+height:1800px;
+width:8px;
+background-color: rgb(3, 52, 74);
+box-shadow: 0 0 5px rgb(3, 136, 173);
+
+}
+
+.dot1, .dot2, .dot3, .dot4, .dot5{
+  margin-bottom: 340px;
+  width:15px;
+  height:15px;
+  border-radius: 50%;
+  background-color: rgb(8, 136, 196);
+  box-shadow: 0 0 25px rgb(2, 196, 250);
+
+}
+
+
+
+  .right{
+
+  height: 1000px;
+  width: 30%;
+  
+  }
+
+  .skills, .myProfiles{
+    margin-top: 0px;
+    border-radius: 20px;
+    margin-left: 25px;
+    border: 2px solid rgb(1, 27, 41);
+    background-color: rgb(3, 52, 74);
+    height: 280px;
+    width: 420px;
+    padding:20px;
+    box-shadow: 0 0 25px black;
+  }
+
+  .skills:hover, .myProfiles:hover{
+    box-shadow: 0 0 25px rgb(3, 136, 173);
+  }
+
+  .up img{
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: rgb(4, 209, 255);
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .down img{
+    margin-top: 45px;
+    border-radius: 50%;
+    background-color: rgb(4, 209, 255);
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+  }
+
+  
+  .down img:hover, .up img:hover{
+    box-shadow: 0 0 30px rgb(3, 136, 173);
+    padding: 0.5px;
+   
+  }
+
+  
+  @keyframes fadeIn {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+  .down img:hover, .up img:hover{
+    animation: fadeIn 2s ease-in-out;
+  }
+
+
+  
+    
+
+  .myProfiles{
+  
+    margin-top: 285px;
+  }
+
+  .prof-img{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 380px;
+    padding:10px;
+    height:150px;
+  background-color: rgb(3, 88, 109);
+  box-shadow: 0 0 25px rgb(1, 13, 13);
+   
+  }
+
+  .prof-img img{
+    border-radius: 90%;
+    box-shadow: 0 0 25px rgb(0, 7, 7);
+    background-color: rgb(2, 233, 233);
+   margin-top: 10px; 
+   margin-right: 30px;
+   display: inline;
+   width:130px;
+   height:130px;
+  }
+
+  #git{
+    margin-left: 10px;
+    width:130px;
+   height:130px;
+   box-shadow: 0 0 25px rgb(0, 7, 7);
+  
+  }
+
+  .prof-img img:hover{
+    box-shadow: 0 0 25px rgb(1, 225, 237);
+  }
+
+#git:hover{
+  box-shadow: 0 0 25px rgb(1, 225, 237);
+}
+ .sign{
+  color:rgb(215, 8, 98);
+ display: block;
+  text-align: center;
+ } 
+
+.sign p{
+  
+  margin-bottom: 20px;
+  font-size: 50px;
+ 
+}
+
+.sign img{
+  width: 250px;
+  height: 220px;
+}
+ 
+.sign-cont{
+
+  margin-top: 0px;
+  height: 300px;
+  width: 400px;
+}
+
+  #right-section{
+    width: 30%;
+    
+  }
+
+  
+
+
+  
+  
+  #contact{
+    text-align: center;
+    background-image: linear-gradient(to top right ,hsl(191, 82%, 13%),rgb(6, 121, 110)) ;
+    padding: 10px;
+   
+   
+  }
+
+  .ctc{
+    margin-left: 100px;
+    display: flex;
+    justify-content:space-around;
+    background-image: linear-gradient(to top right, rgb(141, 141, 239), rgb(50, 50, 133) rgb(2, 2, 58));
+    /* background-color: rgb(28, 3, 65); */
+    align-items: center;
+    flex-direction: row;
+    height: 600px;
+    width: 1250px;
+    border-radius: 30px;
+  }
+  
+  #form{
+  
+    background:white;
+    border-radius: 30px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 25px black;
+    
+  }
+
+  .extra img{ 
+ 
+
+  }
+   #contact h2{
+     font-size:2em
+   }
+  
+  #contact h1{
+    color: black;
+  }
+  
+   #contact input{
+     display: block;
+     margin: auto;
+  
+   }
+   #submit{
+    background: rgb(4, 4, 74);
+    ;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.2em;
+   }
+  
+   #submit:hover{
+     background: hsl(243, 69%, 10%);
+   }
+ 
+   #contact input{
+     padding: 10px 40px;
+     margin: 20px auto;
+   }
+
+   #name{
+    width: 300px;
+   }
+
+   #email{
+    width: 300px;
+   }
+
+   #message{
+    width: 300px;
+    height: 200px;
+   }
+   footer{
+     background: black;
+     height: 5%;
+     padding:10px;
+     
+     text-align: center;
+     
+     width: 100%;
+   }
+  
+  
+
+   @media screen and (max width: 100px){
+    header{
+        background-color: red;
+    }
+      #welcome-section{
+    flex-direction: column-reverse;     }
+   }
+  class{
+    background-color: rgb(17, 5, 154);
+  }
+   
+  
